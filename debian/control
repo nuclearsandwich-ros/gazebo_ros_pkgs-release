@@ -1,0 +1,12 @@
+Source: ros-turbulent-gazebo-plugins
+Section: misc
+Priority: extra
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-camera-info-manager, ros-turbulent-cv-bridge, ros-turbulent-gazebo-dev, ros-turbulent-gazebo-msgs, ros-turbulent-gazebo-ros, ros-turbulent-geometry-msgs, ros-turbulent-image-transport, ros-turbulent-nav-msgs, ros-turbulent-rclcpp, ros-turbulent-sensor-msgs, ros-turbulent-std-msgs, ros-turbulent-std-srvs, ros-turbulent-tf2-geometry-msgs, ros-turbulent-tf2-ros, ros-turbulent-trajectory-msgs, ros-turbulent-ros-workspace
+Homepage: http://gazebosim.org/tutorials?cat=connect_ros
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-gazebo-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-camera-info-manager, ros-turbulent-cv-bridge, ros-turbulent-gazebo-dev, ros-turbulent-gazebo-msgs, ros-turbulent-gazebo-ros, ros-turbulent-geometry-msgs, ros-turbulent-image-transport, ros-turbulent-nav-msgs, ros-turbulent-rclcpp, ros-turbulent-sensor-msgs, ros-turbulent-std-msgs, ros-turbulent-std-srvs, ros-turbulent-tf2-geometry-msgs, ros-turbulent-tf2-ros, ros-turbulent-trajectory-msgs, ros-turbulent-ros-workspace
+Description: Robot-independent Gazebo plugins for sensors, motors and dynamic reconfigurable components.
