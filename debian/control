@@ -1,0 +1,12 @@
+Source: ros-turbulent-gazebo-ros
+Section: misc
+Priority: extra
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-builtin-interfaces, ros-turbulent-gazebo-dev, ros-turbulent-gazebo-msgs, ros-turbulent-geometry-msgs, ros-turbulent-rcl, ros-turbulent-rclcpp, ros-turbulent-rclpy, ros-turbulent-sensor-msgs, ros-turbulent-std-msgs, ros-turbulent-std-srvs, ros-turbulent-tinyxml-vendor, ros-turbulent-ros-workspace
+Homepage: http://gazebosim.org/tutorials?cat=connect_ros
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-gazebo-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-builtin-interfaces, ros-turbulent-gazebo-dev, ros-turbulent-gazebo-msgs, ros-turbulent-geometry-msgs, ros-turbulent-launch-ros, ros-turbulent-rcl, ros-turbulent-rclcpp, ros-turbulent-rclpy, ros-turbulent-sensor-msgs, ros-turbulent-std-srvs, ros-turbulent-tinyxml-vendor, ros-turbulent-ros-workspace
+Description: Utilities to interface with Gazebo through ROS.
