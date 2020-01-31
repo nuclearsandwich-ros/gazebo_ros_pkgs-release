@@ -1,0 +1,12 @@
+Source: ros-turbulent-gazebo-dev
+Section: misc
+Priority: extra
+Maintainer: Jose Luis Rivero <jrivero@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ros-workspace
+Homepage: http://gazebosim.org/tutorials?cat=connect_ros
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-gazebo-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gazebo9, libgazebo9-dev, ros-turbulent-ros-workspace
+Description: Provides a cmake config for the default version of Gazebo for the ROS distribution.
