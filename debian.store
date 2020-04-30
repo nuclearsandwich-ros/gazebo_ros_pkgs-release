@@ -1,1 +1,1 @@
-{"trim": "", "base": "290f844", "trimbase": "", "parent": "debian/eloquent/gazebo_ros_pkgs", "previous": "4032ee1"}
+{"base": "6d5329f", "parent": "debian/verystable/gazebo_ros_pkgs", "previous": "91931a3", "trim": "", "trimbase": ""}
