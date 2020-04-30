@@ -1,0 +1,12 @@
+Source: ros-verystable-gazebo-plugins
+Section: misc
+Priority: optional
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ament-cmake-gtest, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-camera-info-manager, ros-verystable-cv-bridge, ros-verystable-gazebo-dev, ros-verystable-gazebo-msgs, ros-verystable-gazebo-ros, ros-verystable-geometry-msgs, ros-verystable-image-transport, ros-verystable-nav-msgs, ros-verystable-rclcpp, ros-verystable-sensor-msgs, ros-verystable-std-msgs, ros-verystable-std-srvs, ros-verystable-tf2-geometry-msgs, ros-verystable-tf2-ros, ros-verystable-trajectory-msgs, ros-verystable-ros-workspace
+Homepage: http://gazebosim.org/tutorials?cat=connect_ros
+Standards-Version: 3.9.2
+
+Package: ros-verystable-gazebo-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-camera-info-manager, ros-verystable-cv-bridge, ros-verystable-gazebo-dev, ros-verystable-gazebo-msgs, ros-verystable-gazebo-ros, ros-verystable-geometry-msgs, ros-verystable-image-transport, ros-verystable-nav-msgs, ros-verystable-rclcpp, ros-verystable-sensor-msgs, ros-verystable-std-msgs, ros-verystable-std-srvs, ros-verystable-tf2-geometry-msgs, ros-verystable-tf2-ros, ros-verystable-trajectory-msgs, ros-verystable-ros-workspace
+Description: Robot-independent Gazebo plugins for sensors, motors and dynamic reconfigurable components.
