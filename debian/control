@@ -1,0 +1,12 @@
+Source: ros-verystable-gazebo-ros
+Section: misc
+Priority: optional
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ament-cmake-gtest, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-builtin-interfaces, ros-verystable-gazebo-dev, ros-verystable-gazebo-msgs, ros-verystable-geometry-msgs, ros-verystable-launch-testing-ament-cmake, ros-verystable-rcl, ros-verystable-rclcpp, ros-verystable-rclpy, ros-verystable-ros2run, ros-verystable-sensor-msgs, ros-verystable-std-msgs, ros-verystable-std-srvs, ros-verystable-tinyxml-vendor, ros-verystable-ros-workspace
+Homepage: http://gazebosim.org/tutorials?cat=connect_ros
+Standards-Version: 3.9.2
+
+Package: ros-verystable-gazebo-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-builtin-interfaces, ros-verystable-gazebo-dev, ros-verystable-gazebo-msgs, ros-verystable-geometry-msgs, ros-verystable-launch-ros, ros-verystable-rcl, ros-verystable-rclcpp, ros-verystable-rclpy, ros-verystable-sensor-msgs, ros-verystable-std-srvs, ros-verystable-tinyxml-vendor, ros-verystable-ros-workspace
+Description: Utilities to interface with Gazebo through ROS.
